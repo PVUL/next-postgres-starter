@@ -1,4 +1,4 @@
-# Demo of Ticket Tracker app:
+# Demo of Ticket Tracker app
 
 Creating a ticket, searching, filtering, resetting view:
 ![](demo.gif)
