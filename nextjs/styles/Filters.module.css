@@ -1,10 +1,10 @@
 .filters {
-  padding: 0 1rem;
+  padding: 0 2rem;
 }
 
 .filter {
-  padding: 0.5rem;
+  padding: 0.1rem 0.4rem;
   border-radius: 20px;
   user-select: none;
-  margin: 4px;
+  display: inline-flex;
 }

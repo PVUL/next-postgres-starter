@@ -31,7 +31,7 @@ export const Header = ({ setTickets }: Props) => {
     };
 
     getMatchingTickets();
-  }, [query, filters]);
+  }, [query, filters, setTickets]);
 
   const resetView = () => {
     setQuery('');
@@ -61,8 +61,8 @@ export const Header = ({ setTickets }: Props) => {
   return (
     <section className={styles.header}>
       <div className={styles.headerTitle}>Ticket Tracker</div>
-      <Search setQuery={setQuery} />
-      <Filters onChange={updateFilters} />
+      <Search setQuery={setQuery} forwardRef={queryInput} />
+      <Filters onChange={updateFilters} forwardRef={statusFilters} />
       <button className={styles.resetButton} onClick={resetView}>
         Reset View
       </button>

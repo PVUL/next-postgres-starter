@@ -1,16 +1,13 @@
 # Demo of Ticket Tracker app:
 
-Creating a ticket, searching, reseting view:
-![](create-search-reset.gif)
-
-Filtering:
-![](filters.gif)
+Creating a ticket, searching, filtering, resetting view:
+![](demo.gif)
 
 ---
 
 ## Running
 
-To run, simply execute `docker-compose up`. This will create your environment and you can access the next app at [http://localhost:3000](http://localhost:3000).
+To run, make sure docker is running, then simply execute `docker-compose up`. This will create your environment and you can access the next app at [http://localhost:3000](http://localhost:3000).
 
 ## Starting from scratch
 
