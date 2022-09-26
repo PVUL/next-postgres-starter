@@ -1,0 +1,51 @@
+.creator {
+  padding: 2rem;
+  background: white;
+  position: fixed;
+  width: 100vw;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
+    rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+  display: flex;
+  bottom: 0;
+  align-items: baseline;
+  justify-content: center;
+}
+
+.field {
+  margin-left: 2rem;
+}
+
+.field > input:focus {
+  outline: none;
+}
+
+.statusSelect {
+  width: 7rem;
+}
+
+.statusSelect:focus {
+  outline: none;
+}
+
+.title {
+  font-weight: bold;
+  color: grey;
+  user-select: none;
+}
+
+.submitButton {
+  width: 6rem;
+  margin-left: 2rem;
+  border-radius: 32px;
+  border: black 0.5px solid;
+  background: white;
+  padding: 11px;
+  transition: all 0.2s ease-out;
+  opacity: 60%;
+  font-size: 14px;
+}
+
+.submitButton:hover {
+  opacity: 100%;
+  cursor: pointer;
+}

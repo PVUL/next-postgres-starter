@@ -1,0 +1,40 @@
+.ticketCards {
+  padding: 5rem 0;
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  background: #e3e3e3;
+  margin: 1rem;
+  padding: 1.2rem 1.5rem;
+  border-radius: 8px;
+  width: 18rem;
+}
+
+.status {
+  font-style: italic;
+  color: #696969;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.title {
+  font-size: 26px;
+  padding: 0rem 0;
+}
+
+.description {
+  font-size: 16px;
+}
+
+.assignee {
+  padding-top: 1rem;
+  text-align: right;
+}
+
+.empty {
+  font-size: 56px;
+  color: #e3e3e3;
+}
